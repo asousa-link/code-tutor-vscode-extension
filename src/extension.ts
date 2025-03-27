@@ -7,9 +7,8 @@ import * as t from './tutor.js';
 // This method is called when your extension is activated
 // Your extension is activated the very first time the command is executed
 export function activate(context: vscode.ExtensionContext) {
-  const prompt = t.BASE_PROMPT;
-  const handler = t.handler;
-  const tutor = t.tutor;
+  t.handler;
+  t.tutor;
   // t.defineIcon(tutor, context,'tutor.png');
 
   /*
