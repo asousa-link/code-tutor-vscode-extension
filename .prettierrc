@@ -3,5 +3,6 @@
   "useTabs": false,
   "semicolons": true,
   "singleQuote": true,
-  "proseWrap": "always"
+  "proseWrap": "always",
+  "printWidth": 80
 }
