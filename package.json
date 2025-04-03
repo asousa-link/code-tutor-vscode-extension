@@ -19,7 +19,7 @@
   "contributes": {
     "chatParticipants": [
       {
-        "id": "chat-tutorial.code-tutor",
+        "id": "code-tutor",
         "fullName": "Code Tutor",
         "name": "tutor",
         "description": "What can I teach you?",
@@ -31,7 +31,22 @@
           }
         ]
       }
-    ]
+    ],
+    "commands": [
+      {
+        "command": "code-tutor.annotate",
+        "title": "Toggle Tutor Annotations",
+        "icon": "$(comment)"
+      }
+    ],
+    "menus": {
+      "editor/title": [
+        {
+          "command": "code-tutor.annotate",
+          "group": "navigation"
+        }
+      ]
+    }
   },
   "scripts": {
     "vscode:prepublish": "npm run compile",
