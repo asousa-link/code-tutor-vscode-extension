@@ -1,8 +1,13 @@
 {
   "name": "code-tutor",
+  "publisher": "",
   "displayName": "Code Tutor",
   "description": "",
   "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
   "engines": {
     "vscode": "^1.98.0"
   },
